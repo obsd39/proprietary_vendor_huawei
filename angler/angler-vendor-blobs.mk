@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
     vendor/huawei/angler/proprietary/lib/hw/context_hub.default.so:system/lib/hw/context_hub.default.so \
     vendor/huawei/angler/proprietary/lib/hw/gps.msm8994.so:system/lib/hw/gps.msm8994.so \
-    vendor/huawei/angler/proprietary/lib/hw/nfc_nci.angler.so:system/lib/hw/nfc_nci.angler.so \
     vendor/huawei/angler/proprietary/lib/hw/sensors.angler.so:system/lib/hw/sensors.angler.so \
     vendor/huawei/angler/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/huawei/angler/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
@@ -45,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/hw/audio.primary.msm8994.so:system/lib64/hw/audio.primary.msm8994.so \
     vendor/huawei/angler/proprietary/lib64/hw/context_hub.default.so:system/lib64/hw/context_hub.default.so \
     vendor/huawei/angler/proprietary/lib64/hw/gps.msm8994.so:system/lib64/hw/gps.msm8994.so \
-    vendor/huawei/angler/proprietary/lib64/hw/nfc_nci.angler.so:system/lib64/hw/nfc_nci.angler.so \
     vendor/huawei/angler/proprietary/lib64/hw/sensors.angler.so:system/lib64/hw/sensors.angler.so \
     vendor/huawei/angler/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/huawei/angler/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
