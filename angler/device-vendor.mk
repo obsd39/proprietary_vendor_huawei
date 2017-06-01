@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     HiddenMenu \
     HotwordEnrollmentWCD9330 \
     qcrilmsgtunnel \
-    SprintDM
+    SprintDM \
+    QPerformance
 
 # Symlinks
 PRODUCT_PACKAGES += \
@@ -52,3 +53,6 @@ PRODUCT_PACKAGES += \
     libdmengine.so \
     libdmjavaplugin.so \
     libManufacture.so
+
+# Preloading QPerformance jar to ensure faster perflocks in Boost Framework
+PRODUCT_BOOT_JARS += QPerformance

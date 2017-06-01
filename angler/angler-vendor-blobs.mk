@@ -14,6 +14,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/huawei/angler/proprietary/bin/iop:system/bin/iop \
     vendor/huawei/angler/proprietary/bin/nanoapp_cmd:system/bin/nanoapp_cmd \
     vendor/huawei/angler/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
@@ -21,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/huawei/angler/proprietary/etc/permissions/privapp-permissions-angler.xml:system/etc/permissions/privapp-permissions-angler.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/huawei/angler/proprietary/etc/sysconfig/angler_common.xml:system/etc/sysconfig/angler_common.xml \
     vendor/huawei/angler/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
@@ -31,4 +33,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/lib64/hw/nfc_nci.angler.so:system/lib64/hw/nfc_nci.angler.so \
     vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so
+    vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so \
+    vendor/huawei/angler/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
+    vendor/huawei/angler/proprietary/lib/libqti-iop-client.so:system/lib/libqti-iop-client.so \
+    vendor/huawei/angler/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/huawei/angler/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
+    vendor/huawei/angler/proprietary/lib64/libqti-iop-client.so:system/lib64/libqti-iop-client.so \
+    vendor/huawei/angler/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so
